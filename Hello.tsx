@@ -27,7 +27,7 @@ const Hello: React.FC<Props> = ({
   return (
     <View style={styles.container}>
       <Text style={styles.greeting}>
-        Hello {name}
+        Assalamwalekum {name}
         {getExclamationMarks(enthusiasmLevel)}
       </Text>
       <View>
